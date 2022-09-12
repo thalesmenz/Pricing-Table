@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    height: 145vh;
+    background: #f9fbfc;
+}
+
+.text {  
+    position: absolute;
+    color: white;
+    top: 20%;
+    align-items: center;
+}
+
+.title {
+    width: 32rem;
+    font-size: 3.2rem;
+    text-align: center;
+    margin: 0;
+}
+
+.parag {
+    width: 26rem;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 3.6rem;
+}
+
+.containerTabelas{
+    width: 100%;
+    height: 75%;
+    border: 1px solid black;
+    position: absolute;
+    top: 0%;
+    background: #1d539e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.headtable{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px 20px 0px 0px;
+    box-sizing: border-box;
+    padding: 7.5%;
+    padding-top: 2%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+
+.gratis{
+    background: white;
+    height: 105%;
+}
+
+.basico{
+    background: white;
+    height: 112%;
+}
+
+.profissonal{
+    background: white;
+    height: 105%;
+}
+
+.gratis, .basico, .profissonal {
+    width: 27%;
+    background: white;
+    border-radius: 20px;
+    margin: 1%;
+    position: relative;
+    top: 78%;
+} 
+
+.price {
+    border-bottom: 1px solid #828799;
+    color: #828799;
+}
+
+.Preal {
+    margin: 0;
+}
+
+.popular {
+    position: relative;
+    background: #1d539e;
+    border-radius: 17px;
+    padding: 5px;
+    padding-bottom: 6px;
+    display: flex;
+    height: 52%;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    width: 27%;
+}
+
+.conteudo {
+    height: 80%;
+    box-sizing: border-box;
+    padding: 7.5%;
+    padding-top: 0;
+    color: #828799;
+    font-size: 18px;
+}
+
+.botaoAssinar.basic {
+    background: #1d539e;
+    color: white;
+}
+
+.botaoAssinar {
+    position: absolute;
+    bottom: 7%;
+    width: 85%;
+    padding: 5%;
+    border-radius: 12px;
+    border: 1.5px solid #1d539e;
+    background:white;
+    color: #1d539e;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
